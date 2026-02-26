@@ -5,7 +5,7 @@
 </div>
 
 ---
-A portable sub-GHz RF signal analyzer and transmitter built on the ESP32-C3 SuperMini with a CC1101 radio module. FreqFoxRF scans, detects, logs, and replays wireless signals across common ISM bands — all from a compact handheld device with a 128×64 OLED display and 5-button navigation.
+A portable sub-GHz RF signal Multi-Tool built on the ESP32-C3 SuperMini with a CC1101 radio module, created to push the boundaries. FreqFoxRF scans, detects, logs, and replays wireless signals across common ISM bands - all from a compact handheld device with a 128×64 OLED display and 5-button navigation.
 
 #### STILL IN DEVELOPMENT!
 
