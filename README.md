@@ -120,6 +120,15 @@ A browser-based flasher (no drivers required) may be available via [ESP Web Tool
 
 ---
 
+## UI & Display
+
+The FreqFoxRF display graphics were designed using **[Lopaka](https://lopaka.app)** - a free, browser-based UI editor for embedded displays. If you're building anything that makes pixels go "Beep, Boop! 0 1", Lopaka lets you visually design your layouts and exports ready-to-use code directly. No more guessing pixel coordinates by hand.
+
+Seriously worth bookmarking if you do any embedded UI work: **https://lopaka.app**
+Special thanks to Lopaka.app for sponsoring and supporting by this!
+
+---
+
 ## Disclaimer
 
 FreqFoxRF is intended for authorized testing, research, and educational use only. Transmitting on licensed frequencies without authorization may be illegal in your jurisdiction. I, The author (@emensta) DO NOT take responsibility for misuse.
