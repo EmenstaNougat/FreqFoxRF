@@ -85,7 +85,7 @@ Then flash with:
 
 ```bash
 esptool.py --chip esp32c3 --port /dev/ttyUSB0 --baud 460800 \
-  write_flash -z 0x0 freqfoxrf.bin
+  write_flash -z 0x0 FreqFoxRF.bin
 ```
 
 > Replace `/dev/ttyUSB0` with your actual serial port (`COM3`, `/dev/tty.usbserial-*`, etc.)
