@@ -9,18 +9,122 @@ A portable sub-GHz RF signal Multi-Tool built on the ESP32-C3 SuperMini with a C
 
 #### STILL IN DEVELOPMENT!
 
-## Features
+---
 
-- **Frequency Analyzer** - scans 10 bands across 300–915 MHz, auto-detects active frequencies with hot-dwell burst locking and a 2-second confirmation window before logging
-- **Live Spectrum Monitor** - real-time RSSI energy display with scrolling history, peak hold, and per-band sensitivity tuning (315 / 433 / 868 / 915 MHz)
-- **Signal Capture** - captures and stores OOK/ASK signals with protocol detection
-- **Raw Capture** - records raw pulse timings for signals that don't match known protocols
-- **Signal Replay** - retransmit any captured or saved signal
-- **Brute Force** - sequential code transmission for compatible receivers - ADDED
-- **Generate Random** - generates and transmits a random signal - ADDED
-- **Saved Signals** - persistent signal storage in EEPROM, survives power cycles
-- **Jammer Detector** - detects abnormal RF noise levels on monitored frequencies (not added yet)
-- **Adjustable Sensitivity** - UP/DOWN buttons tune the RSSI threshold live on both the analyzer and capture screens
+## Functions
+FreqFoxRF features a structured handheld-style menu system designed for fast navigation using the 5‑button interface.  
+Expand each menu below to explore available functions.
+
+### Main Menu
+
+<details>
+  <summary>📥 CAPTURE</summary>
+
+  **Capture**
+  - Receive RF signals
+  - Replay captured transmissions instantly
+  - Save signals for later use
+  - Analyze detected protocols and parameters
+
+  **Capture RAW**
+  - Records raw pulse timings
+  - Used for unknown or unsupported protocols
+  - Allows advanced replay experimentation
+
+  **Frequency Analyzer**
+  - Finds unknown signal frequencies (e.g. keyfobs, remotes)
+  - Automatic active-frequency detection
+  - Optimized for fast discovery across ISM bands
+
+  **Frequency Spectrum**
+  - Visualizes RF activity around you
+  - Live RSSI energy monitoring
+  - Displays surrounding airwave usage in real time
+
+  **Config** *(Work in Progress)*
+  - Configure capture presets
+  - Adjustable detection parameters
+  - Workflow optimization profiles
+
+</details>
+
+---
+
+<details>
+  <summary>📡 TRANSMIT</summary>
+
+  **Saved**
+  - Central storage for all saved signals
+  - Organized categories:
+    - Captured signals
+    - RAW recordings
+    - Randomly generated signals
+  - Clean and structured signal management
+
+  **Bruteforce**
+  - Sequential signal transmission
+  - Selectable:
+    - Frequency
+    - Bit length
+    - Protocol
+  - Includes protocols implemented in the Flipper Zero ecosystem
+
+  **Random**
+  - Generates completely random signal parameters:
+    - Protocol
+    - Key
+    - Bit length
+    - TE timing
+    - Modulation
+    - Lo‑first / Hi‑first ordering
+    - Repeat count
+
+  **Config** *(Work in Progress)*
+  - Transmission presets
+  - Saved transmission profiles
+  - Automation preparation
+
+</details>
+
+---
+
+<details>
+  <summary>🛡️ JAMMER DETECTOR</summary>
+
+  **Coming Soon**
+  - Detect abnormal RF noise levels
+  - Identify possible jamming activity
+  - Monitor interference across monitored frequencies
+
+</details>
+
+---
+
+<details>
+  <summary>📶 JAMMER</summary>
+
+  **Coming Soon**
+  - Experimental RF interference testing tools
+  - Intended strictly for controlled environments and authorized research
+
+</details>
+
+---
+
+<details>
+  <summary>⚙️ SETTINGS</summary>
+
+  **Coming Soon**
+  - Device configuration
+  - Radio parameters
+  - Power management options
+
+</details>
+
+---
+
+### 🚧 More Features Incoming
+FreqFoxRF is actively evolving - new tools, protocols, and experimental RF capabilities are continuously being developed.
 
 ---
 
