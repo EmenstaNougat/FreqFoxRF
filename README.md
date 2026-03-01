@@ -35,20 +35,20 @@ A portable sub-GHz RF signal Multi-Tool built on the ESP32-C3 SuperMini with a C
 
 ### Pin Wiring (NOT FINAL! Hardware will be added, therefore pins may be changed in the future!)
 
-| Signal | ESP32-C3 Pin |
-|---|---|
-| CC1101 SCK | GPIO 4 |
-| CC1101 MISO | GPIO 5 |
-| CC1101 MOSI | GPIO 6 |
-| CC1101 CSN | GPIO 7 |
-| CC1101 GDO0 | GPIO 2 |
-| OLED SDA | GPIO 8 |
-| OLED SCL | GPIO 9 |
-| Button UP | GPIO 1 |
-| Button DOWN | GPIO 3 |
-| Button LEFT | GPIO 10 |
-| Button RIGHT | GPIO 20 |
-| Button SELECT | GPIO 21 |
+| Signal | ESP32-C3 Pin | ESP32 |
+|---|---|---|
+| CC1101 SCK | GPIO 4 | GPIO 18 |
+| CC1101 MISO | GPIO 5 | GPIO 19 |
+| CC1101 MOSI | GPIO 6 | GPIO 23 |
+| CC1101 CSN | GPIO 7 | GPIO 5 |
+| CC1101 GDO0 | GPIO 2 | GPIO 2 |
+| OLED SDA | GPIO 8 | GPIO 21 |
+| OLED SCL | GPIO 9 | GPIO 22 |
+| Button UP | GPIO 1 | GPIO 27 |
+| Button DOWN | GPIO 3 | GPIO 26 |
+| Button LEFT | GPIO 10 | GPIO 33 |
+| Button RIGHT | GPIO 20 | GPIO 32 |
+| Button SELECT | GPIO 21 | GPIO 25 |
 
 ---
 
