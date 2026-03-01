@@ -16,7 +16,8 @@ A portable sub-GHz RF signal Multi-Tool built on the ESP32-C3 SuperMini with a C
 - **Signal Capture** - captures and stores OOK/ASK signals with protocol detection
 - **Raw Capture** - records raw pulse timings for signals that don't match known protocols
 - **Signal Replay** - retransmit any captured or saved signal
-- **Brute Force** - sequential code transmission for compatible receivers (not added yet)
+- **Brute Force** - sequential code transmission for compatible receivers - ADDED
+- **Generate Random** - generates and transmits a random signal - ADDED
 - **Saved Signals** - persistent signal storage in EEPROM, survives power cycles
 - **Jammer Detector** - detects abnormal RF noise levels on monitored frequencies (not added yet)
 - **Adjustable Sensitivity** - UP/DOWN buttons tune the RSSI threshold live on both the analyzer and capture screens
